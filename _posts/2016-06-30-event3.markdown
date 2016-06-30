@@ -1,0 +1,7 @@
+---
+layout: null
+title: January 2011 - July 2011
+subtitle:
+image: "images/lnu.jpg"
+---
+Studied Abroad at Linnaues University

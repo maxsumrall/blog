@@ -16,7 +16,7 @@
           {{ page.content | markdownify }}
 
     <ul class="timeline">
-      {% for post in site.posts %}
+      {% for post in site.posts reversed %}
       {% assign loopindex = forloop.index | modulo: 2 %}
       {% capture class %}
       {% if loopindex == 0 %}
@@ -26,7 +26,7 @@
 
       <li class="{{ class }}">
         <div class="timeline-image">
-          <img class="img-circle img-responsive" src="{{ site.baseurl }}/{% if post.image %}{{ post.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
+          <img class="img-responsive" src="{{ site.baseurl }}/{% if post.image %}{{ post.image }}{% else %}{{site.career-img}}{% endif %}" alt="">
         </div>
         <div class="timeline-panel">
           <div class="timeline-heading">

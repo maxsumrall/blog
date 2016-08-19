@@ -12,7 +12,7 @@
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #0;
 }
 
 .timeline>li {
@@ -59,11 +59,12 @@
     left: 0;
     width: 80px;
     height: 80px;
-    border: 0px solid #f1f1f1;
+    margin-left: 0;
+    border: 0 solid #ffffff;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #fffff
 }
 
 .timeline>li .timeline-image h4 {
@@ -74,7 +75,7 @@
 
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 20px 100px;
+    padding: 0 20px 0 100px;
     text-align: left;
 }
 
@@ -179,7 +180,7 @@
     }
 
     .timeline>li .timeline-panel {
-        padding: 0 60px 20px 20px;
+        padding: 0 20px 20px 100px;
     }
 
     .timeline>li .timeline-image {
@@ -193,6 +194,6 @@
     }
 
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 60px 20px 20px;
+        padding: 0 100px 20px 20px;
     }
 }

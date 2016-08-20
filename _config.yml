@@ -19,3 +19,14 @@ github_username:  maxsumrall
 
 # Build settings
 markdown: kramdown
+
+include:
+  - .nojekyll
+
+exclude:
+  - "bower_components"
+  - "bower.json"
+  - "node_modules"
+  - "package.json"
+  - "Gruntfile.coffee"
+  - "images/full_size"

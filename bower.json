@@ -1,0 +1,17 @@
+{
+  "name": "maxsumrall.github.io",
+  "homepage": "https://github.com/maxsumrall/maxsumrall.github.io",
+  "authors": [
+    "Max Sumrall <max.sumrall@neotechnology.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

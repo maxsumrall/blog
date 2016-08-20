@@ -1,23 +1,248 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Fractal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Fractal by HTML5 UP</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!--[if lte IE 8]>
+    <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="assets/css/ie9.css"/><![endif]-->
+    <link rel="stylesheet" href="assets/css/animate.css"/>
+    <![endif]-->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <![endif]-->
+</head>
+<body id="top">
 
-<div class="home">
+<!-- Header -->
+<header id="header">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <div class="content">
+        <h1><a href="#">Hello!</a></h1>
+        <p>Software Developer from Virginia, USA. </p>
+        <p>Currently in Malmö, Sweden.</p>
+        <!--<p>Building a Graph Database and Distributed Systems at Neo4j.</p>-->
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        <ul class="actions">
+            <li><a href="https://blog.maxsumrall.com" class="button icon fa-medium">Writings</a></li>
+            <li><a href="http://photos.maxsumrall.com" class="button icon fa-camera">Photos</a></li>
+            <li><a href="http://github.com/maxsumrall" class="button icon fa-terminal">GitHub </a></li>
+            <li><a href="mailto:jmsumrall@gmail.com" class="button icon fa-mail-reply">Email</a></li>
+        </ul>
+    </div>
+    </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div class="row">
+        <div class="image phone"><img src="http://i.imgur.com/XsoUm9T.jpg" width="400px"/></div>
+    </div>
 
+
+</header>
+
+
+<div class="section white-bg">
+    <div class="section-content wow fadeInUp">
+        <div class="title">
+            <h1>About</h1>
+        </div>
+
+        <div class="experienceContent">
+            <div>
+                <h2>Max Sumrall</h2>
+                <p>
+                    Hi, I'm a software developer in Malmö, Sweden. I'm working on Neo4j, the world's leading graph database.
+
+                    I have a Masters of Computer Science from the Technical University of Eindhoven and
+                    a Bachelors of Computer Science from George Mason University.
+
+                    <br/><br/>
+
+                    Tech and programming is more than just a job. I'm deeply motivated and a fast learner. I'm trying
+                    to be around the best people and learn why and how things work.
+
+                    <br/><br/>
+
+                    I'm also interested in photography. I'm fortunate to have been able to travel, and I want to capture it all. You can see some photos <a href="http://photos.maxsumrall.com">here.</a>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div><!-- ./about -->
+
+<hr/>
+
+
+<div class="section white-bg">
+    <div class="section-content wow fadeInUp">
+        <div class="title">
+            <h1>Experience</h1>
+        </div>
+        <div class="experienceContent">
+
+
+            <div class="row box.alt">
+                <div class="col-span-1">
+                    <img src="images/neo4j.png" width="80px">
+                </div>
+                <div class="col-span-1">
+                    <h2>Software Developer</h2>
+                    <p>Neo Technology, Malmö, Sweden &nbsp; | &nbsp; October 2013 - Present</p>
+                </div>
+            </div>
+            <p>
+                Contributing to the open-source graph database Neo4j. Working primarily on the kernel and on
+                building a fault-tolerant distributed system to allow for robust clustering.
+            </p>
+
+
+            <br/><br/>
+
+            <div class="row box.alt">
+                <div class="col-span-1">
+                    <img src="images/tue.jpg" width="80px">
+                </div>
+                <div class="col-span-1">
+                    <h2>Software Research Project - M.Sc Thesis</h2>
+                    <p>Colloboration with TU Eindhoven and Neo Technology &nbsp; | &nbsp; February 2015 - October
+                        2015</p>
+                </div>
+            </div>
+            <p>
+                Collaborating with Neo Technology to research and develop a high-performance path index data
+                structure and integrating it with Neo4j, the world’s leading graph database.
+            </p>
+
+
+            <br/><br/>
+
+            <div class="row box.alt">
+                <div class="col-span-1">
+                    <img src="images/kintivo.png" width="80px">
+                </div>
+                <div class="col-span-1">
+                    <h2>Software Engineer Intern</h2>
+                    <p> Kintivo &nbsp; | &nbsp; May 2013 - September 2013</p>
+                </div>
+            </div>
+            <p>
+                Consultant work for clients including developing an e-commerce website, a mobile SharePoint
+                application, migrating client data between systems, and general SharePoint development.
+            </p>
+
+
+            <br/><br/>
+
+            <div class="row box.alt">
+                <div class="col-span-1">
+                    <img src="images/nsf.gif" width="80px">
+                </div>
+                <div class="col-span-1">
+                    <h2>Research Assistant - REU </h2>
+                    <p> GMU Robotics Lab, assisted by the National Science Foundation &nbsp; | &nbsp; May 2013 -
+                        September 2013</p>
+                </div>
+            </div>
+            <p>
+                Developed a ML system for humanoid robots to rapidly train them to play soccer. This work was done under
+                the Research Experience for Undergraduates program by the National Science Foundation.
+            </p>
+
+
+            <br/><br/>
+
+            <div class="row box.alt">
+                <div class="col-span-1">
+                    <img src="images/GMU.png" width="80px">
+                </div>
+                <div class="col-span-1">
+                    <h2>Teaching Assistant </h2>
+                    <p> GMU, Dept. of Computer Science &nbsp; | &nbsp; May 2013 - September 2013</p>
+                </div>
+            </div>
+            <p>
+                Advised students during practical sessions and presented to intro programming courses.
+            </p>
+
+
+        </div>
+    </div>
 </div>
+
+
+<hr/>
+
+
+<div class="section white-bg">
+    <div class="section-content wow fadeInUp">
+        <div class="title">
+            <h1>Education</h1>
+        </div>
+        <div class="experienceContent">
+
+
+            <div class="row box.alt">
+                <div class="col-span-1">
+                    <img src="images/tue.jpg" width="80px">
+                </div>
+                <div class="col-span-1">
+                    <h2>M.Sc. Computer Science</h2>
+                    <p>Technical University of Eindhoven &nbsp; | &nbsp; August 2013 - August 2015 <br/>
+                        Eindhoven, The Netherlands </p>
+                </div>
+            </div>
+
+
+            <br/><br/>
+
+
+            <div class="row box.alt">
+                <div class="col-span-1"><img src="images/gmu.png" width="80px"></div>
+                <div class="col-span-1">
+
+                    <h2>B.Sc. Computer Science</h2>
+                    <p>George Mason University &nbsp; | &nbsp; August 2009 - May 2013 <br/>
+                        Fairfax, Virginia, USA </p>
+                </div>
+            </div>
+
+
+            <br/><br/>
+
+
+            <div class="row box.alt">
+                <div class="col-span-1"><img src="images/lnu.jpg" width="80px"></div>
+                <div class="col-span-1">
+
+                    <h2>Study Abroad</h2>
+                    <p>Linnaeus University &nbsp; | &nbsp; August 2009 - May 2013 <br/>
+                        Vaxjo, Sweden </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</div><!-- ./education -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/skel.min.js"></script>
+<script src="assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,7 +1,0 @@
----
-layout: null
-title: October 2015 -
-subtitle:
-image: "images/neo4j.png"
----
-Software Developer at Neo4j.

@@ -1,58 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Max Sumrall</title>
-    <description>Hi, I&#39;m Max Sumrall. This is my personal site to learn about me. Thanks for reading!
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://www.maxsumrall.com/</link>
-    <atom:link href="http://www.maxsumrall.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Aug 2016 17:53:51 +0200</pubDate>
-    <lastBuildDate>Fri, 19 Aug 2016 17:53:51 +0200</lastBuildDate>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 20 Aug 2016 13:43:55 +0200</pubDate>
+    <lastBuildDate>Sat, 20 Aug 2016 13:43:55 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>August 2009 - May 2013</title>
-        <description>&lt;p&gt;B.Sc Computer Science at George Mason University.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.maxsumrall.com/2016/06/30/event4.html</link>
-        <guid isPermaLink="true">http://www.maxsumrall.com/2016/06/30/event4.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>January 2011 - July 2011</title>
-        <description>&lt;p&gt;Studied Abroad at Linnaues University&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.maxsumrall.com/2016/06/30/event3.html</link>
-        <guid isPermaLink="true">http://www.maxsumrall.com/2016/06/30/event3.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>August 2013 - May 2015</title>
-        <description>&lt;p&gt;M.Sc Computer Science at the Technical University of Eindhoven.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.maxsumrall.com/2016/06/30/event2.html</link>
-        <guid isPermaLink="true">http://www.maxsumrall.com/2016/06/30/event2.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>October 2015 -</title>
-        <description>&lt;p&gt;Software Developer at Neo4j.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 00:00:00 +0200</pubDate>
-        <link>http://www.maxsumrall.com/2016/06/30/event1.html</link>
-        <guid isPermaLink="true">http://www.maxsumrall.com/2016/06/30/event1.html</guid>
-        
-        
-      </item>
     
   </channel>
 </rss>

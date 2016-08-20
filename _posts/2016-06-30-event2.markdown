@@ -1,7 +1,0 @@
----
-layout: null
-title: August 2013 - May 2015
-subtitle:
-image: "images/tue.jpg"
----
-M.Sc Computer Science at the Technical University of Eindhoven.

@@ -1,7 +1,0 @@
----
-layout: null
-title: August 2009 - May 2013
-subtitle:
-image: "images/gmu_final.jpg"
----
-B.Sc Computer Science at George Mason University.

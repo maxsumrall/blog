@@ -26,6 +26,7 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
+					console.log("hello");
 				}, 100);
 			});
 
@@ -41,8 +42,6 @@
 						$body.addClass('is-mobile');
 					});
 
-		// Fix: Placeholder polyfill.
-			$('form').placeholder();
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
@@ -51,12 +50,6 @@
 					skel.breakpoint('medium').active
 				);
 			});
-
-		// Scrolly.
-			$('.scrolly')
-				.scrolly({
-					speed: 1500
-				});
 
 	});
 

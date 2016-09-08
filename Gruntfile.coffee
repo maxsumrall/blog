@@ -69,6 +69,9 @@ module.exports = (grunt) ->
           '_site/images/nsf.jpg': '_site/images/nsf.jpg',
           '_site/images/tue.jpg': '_site/images/tue.jpg'
           '_site/images/me-400.jpg': '_site/images/me-400.jpg'
+          '_site/images/hej.png': '_site/images/hej.png'
+          '_site/images/paths.png': '_site/images/paths.png'
+
 
     cssmin:
       options:

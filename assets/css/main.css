@@ -913,8 +913,8 @@
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 70vh;
-		min-height: 35em;
+		height: 30vh;
+		min-height: 20em;
 	}
 
 

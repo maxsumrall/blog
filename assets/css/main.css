@@ -896,7 +896,7 @@
 	#header {
 		background-color: #4696e5;
 		color: #d0e4f8;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 2.5em 0 -0.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -1417,7 +1417,7 @@
 }
 
 .section-content {
-	padding: 100px 100px;
+	padding: 50px 50px;
 	display: block;
 	overflow: auto;
 }
@@ -1640,7 +1640,7 @@ h2 {
 
 .experienceContent {
 	float: left;
-	width: 80%;
+	width: 65%;
 }
 
 hr {
